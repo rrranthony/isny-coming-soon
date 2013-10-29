@@ -119,3 +119,11 @@ html, body {
   border: 0px;
   border-bottom: 1px solid #155499;
 }
+
+
+/* contact */
+#contact {
+  text-align: center;
+  margin-top: 32px;
+  color: #155499;
+}
