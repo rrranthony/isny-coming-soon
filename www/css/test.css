@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #155499;
+}
+
+#page {
+  position: relative;
+  width: 960px;
+  height: 520px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+#logo-img {
+  position: absolute;
+  top: 40px;
+  left: 175px;
+}
+
+#email-input {
+  position: absolute;
+  width: 280px;
+  bottom: 190px;
+  left: 345px;
+  padding: 10px 4px;
+  border: 0px;
+  border-bottom: 1px solid #155499;
+}
