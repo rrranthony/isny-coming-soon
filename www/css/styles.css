@@ -13,3 +13,96 @@ html, body {
 #logo {
   text-align: center;
 }
+
+#content-container {
+  position: relative;
+  width: 590px;
+  height: 263px;
+}
+
+/* content container border box */
+.border-box {
+  position: absolute;
+}
+
+.corner-box {
+  width: 9px;
+  height: 9px;
+}
+
+.border-top {
+  border-top: 1px solid #155499;
+}
+
+.border-right {
+  border-right: 1px solid #155499;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #155499;
+}
+
+.border-left {
+  border-left: 1px solid #155499;
+}
+
+.border-tl-inner {
+  top: 4px;
+  left: 4px;
+}
+
+.border-tr-outer {
+  top: 0px;
+  right: 0px;
+}
+
+.border-tr-inner {
+  top: 4px;
+  right: 4px;
+}
+
+.border-br-outer {
+  bottom: 0px;
+  right: 0px;
+}
+
+.border-br-inner {
+  bottom: 4px;
+  right: 4px;
+}
+
+.border-bl-outer {
+  left: 0px;
+  bottom: 0px;
+}
+
+.border-bl-inner {
+  bottom: 4px;
+  left: 4px;
+}
+
+.border-lr-outer {
+  width: 588px;
+  height: 243px;
+  top: 10px;
+}
+
+.border-lr-inner {
+  width: 580px;
+  height: 235px;
+  top: 14px;
+  left: 4px;
+}
+
+.border-tb-outer {
+  width: 570px;
+  height: 261px;
+  left: 10px;
+}
+
+.border-tb-inner {
+  width: 562px;
+  height: 253px;
+  top: 4px;
+  left: 14px;
+}
