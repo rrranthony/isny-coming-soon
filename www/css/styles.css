@@ -107,3 +107,15 @@ html, body {
   top: 4px;
   left: 14px;
 }
+
+
+/* email form */
+#email-form {
+  position: absolute;
+  width: 280px;
+  bottom: 62px;
+  left: 155px;
+  padding: 10px 4px;
+  border: 0px;
+  border-bottom: 1px solid #155499;
+}
