@@ -109,6 +109,21 @@ html, body {
 }
 
 
+/* coming soon */
+#coming-soon {
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+  top: 55px;
+  left: 195px;
+  width: 200px;
+  margin: 0 auto;
+  color: #155499;
+}
+
+
 /* email form */
 #email-form {
   position: absolute;
