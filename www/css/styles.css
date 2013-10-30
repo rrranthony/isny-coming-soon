@@ -3,7 +3,7 @@ html, body, input {
   padding: 0;
   font-family: "futura-pt", sans-serif;
   font-weight: 400;
-  letter-spacing: .05em;
+  letter-spacing: .085em;
 }
 
 #page {
@@ -116,11 +116,10 @@ html, body, input {
 #coming-soon {
   position: absolute;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-  font-size: 14pt;
+  letter-spacing: .1em;
+  font-size: 13.5pt;
   text-align: center;
-  top: 55px;
+  top: 49px;
   left: 195px;
   width: 200px;
   color: #155499;
@@ -130,7 +129,8 @@ html, body, input {
 #blurb {
   position: absolute;
   text-align: center;
-  top: 95px;
+  line-height: 1.5em;
+  top: 89px;
   left: 45px;
   width: 500px;
   color: black;
@@ -153,6 +153,7 @@ html, body, input {
 /* contact */
 #contact {
   text-align: center;
-  margin-top: 32px;
+  font-size: 13.5pt;
+  margin-top: 26px;
   color: #155499;
 }
