@@ -21,7 +21,7 @@ html, body, input {
   position: relative;
   width: 590px;
   height: 263px;
-  margin-top: 30px; /* bottom of logo to top of border box */
+  margin-top: 35px; /* bottom of logo to top of border box */
 }
 
 /* content container border box */
