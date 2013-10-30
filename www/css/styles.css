@@ -158,6 +158,10 @@ html, body, input {
   border-bottom: 1px solid #155499;
 }
 
+#mc-email-form .email:focus {
+  outline: none;
+}
+
 #mc-email-form .button {
   position: absolute;
   bottom: 26px;
