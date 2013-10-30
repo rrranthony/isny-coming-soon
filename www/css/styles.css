@@ -137,8 +137,17 @@ html, body, input {
 }
 
 
+/* contact */
+#contact {
+  text-align: center;
+  font-size: 13.5pt;
+  margin-top: 26px;
+  color: #155499;
+}
+
+
 /* email form */
-#email-form {
+#mc-email-form .email {
   position: absolute;
   font-size: 12pt;
   width: 280px;
@@ -149,11 +158,26 @@ html, body, input {
   border-bottom: 1px solid #155499;
 }
 
-
-/* contact */
-#contact {
-  text-align: center;
-  font-size: 13.5pt;
-  margin-top: 26px;
+#mc-email-form .button {
+  position: absolute;
+  bottom: 26px;
+  left: 248px;
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+  border: 0 none;
+  border: 1px solid #155499;
+  border-radius: 8px;
   color: #155499;
+  font-size: 15px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+#mc-email-form .button:hover {
+  background-color: #155499;
+  color: #fff;
 }
