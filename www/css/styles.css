@@ -35,19 +35,19 @@ html, body, input {
 }
 
 .border-top {
-  border-top: 1px solid #155499;
+  border-top: 1px solid #155399;
 }
 
 .border-right {
-  border-right: 1px solid #155499;
+  border-right: 1px solid #155399;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #155499;
+  border-bottom: 1px solid #155399;
 }
 
 .border-left {
-  border-left: 1px solid #155499;
+  border-left: 1px solid #155399;
 }
 
 .border-tl-inner {
@@ -122,7 +122,7 @@ html, body, input {
   top: 49px;
   left: 195px;
   width: 200px;
-  color: #155499;
+  color: #155399;
 }
 
 
@@ -142,7 +142,7 @@ html, body, input {
   text-align: center;
   font-size: 13.5pt;
   margin-top: 26px;
-  color: #155499;
+  color: #155399;
 }
 
 
@@ -155,7 +155,7 @@ html, body, input {
   left: 151px;
   padding: 5px 2px;
   border: 0px;
-  border-bottom: 1px solid #155499;
+  border-bottom: 1px solid #155399;
 }
 
 #mc-email-form .email:focus {
@@ -170,8 +170,8 @@ html, body, input {
   height: 27px;
   background-color: #fff;
   border: 0 none;
-  border: 1px solid #155499;
-  color: #155499;
+  border: 1px solid #155399;
+  color: #155399;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 0.1em;
@@ -183,6 +183,6 @@ html, body, input {
 }
 
 #mc-email-form .button:hover {
-  background-color: #155499;
+  background-color: #155399;
   color: #fff;
 }
