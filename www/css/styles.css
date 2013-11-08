@@ -23,17 +23,17 @@ html, body, input {
 
 
 .move-up {
-  -webkit-animation: move-up 5s ease-in-out 3s 1 normal forwards;
-     -moz-animation: move-up 5s ease-in-out 3s 1 normal forwards;
-       -o-animation: move-up 5s ease-in-out 3s 1 normal forwards;
-          animation: move-up 5s ease-in-out 3s 1 normal forwards;
+  -webkit-animation: move-up 4.5s ease-in-out 1.25s 1 normal forwards;
+     -moz-animation: move-up 4.5s ease-in-out 1.25s 1 normal forwards;
+       -o-animation: move-up 4.5s ease-in-out 1.25s 1 normal forwards;
+          animation: move-up 4.5s ease-in-out 1.25s 1 normal forwards;
 }
 
 .fade-in {
-  -webkit-animation: fade-in 2s ease-in-out 7s 1 normal forwards;
-     -moz-animation: fade-in 2s ease-in-out 7s 1 normal forwards;
-       -o-animation: fade-in 2s ease-in-out 7s 1 normal forwards;
-          animation: fade-in 2s ease-in-out 7s 1 normal forwards;
+  -webkit-animation: fade-in 1.75s ease-in-out 5s 1 normal forwards;
+     -moz-animation: fade-in 1.75s ease-in-out 5s 1 normal forwards;
+       -o-animation: fade-in 1.75s ease-in-out 5s 1 normal forwards;
+          animation: fade-in 1.75s ease-in-out 5s 1 normal forwards;
 }
 
 @-webkit-keyframes move-up { from { top: 220px; } to { top: 0px; } }
