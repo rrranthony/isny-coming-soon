@@ -148,7 +148,7 @@ html, body, input {
 #coming-soon {
   position: absolute;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: .12em;
   font-size: 13.5pt;
   text-align: center;
   top: 49px;
