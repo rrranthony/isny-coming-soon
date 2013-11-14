@@ -15,9 +15,26 @@
   <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
   <!-- Retina -->
   <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(window).resize(function(){
+    $('.full-center').css({
+      position:'absolute',
+      left: ($(window).width() - $('.full-center').outerWidth())/2,
+      top: ($(window).height() - $('.full-center').outerHeight())/2
+    });
+  });
+  // To initially run the function:
+  $(window).resize();
+});
+</script>
+
 </head>
 <body>
-  <div id="page">
+  <div id="page" class="full-center">
 
     <div id="logo" class="move-up">
       <img src="img/isny_logo_blue_402x84.png" alt="Industry Standard New York logo" title="Industry Standard New York" width="402" height="84" />
