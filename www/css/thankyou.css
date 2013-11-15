@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+#page {
+  width: 590px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin-top: 75px;
+}
+
+#thank-you {
+  margin-top: 150px;
+  font-size: 18pt;
+  letter-spacing: .12em;
+  color: #155399;
+}
