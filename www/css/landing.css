@@ -177,6 +177,11 @@ html, body, input {
   color: #155399;
 }
 
+#contact a {
+  text-decoration: none;
+  color: #155399;
+}
+
 
 /* email form */
 #mc-email-form .email {
