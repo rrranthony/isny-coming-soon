@@ -20,7 +20,6 @@ html, body, input {
   z-index: 999;
 }
 
-
 .move-up {
   -webkit-animation: move-up 3.5s ease-in-out .75s 1 normal forwards;
      -moz-animation: move-up 3.5s ease-in-out .75s 1 normal forwards;
@@ -44,8 +43,6 @@ html, body, input {
    @-moz-keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
      @-o-keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
         @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
-
-
 
 #content-container {
   position: relative;
@@ -142,7 +139,6 @@ html, body, input {
   left: 14px;
 }
 
-
 /* coming soon */
 #coming-soon {
   position: absolute;
@@ -156,7 +152,6 @@ html, body, input {
   color: #155399;
 }
 
-
 #blurb {
   position: absolute;
   text-align: center;
@@ -166,7 +161,6 @@ html, body, input {
   width: 500px;
   color: black;
 }
-
 
 /* contact */
 #contact {
@@ -181,7 +175,6 @@ html, body, input {
   text-decoration: none;
   color: #155399;
 }
-
 
 /* email form */
 #mc-email-form .email {
